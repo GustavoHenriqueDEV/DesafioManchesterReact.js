@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import * as XLSX from "xlsx";
-import { format, isDate, isValid } from "date-fns";
+import { format, isValid } from "date-fns";
 
 function App() {
   const [data, setData] = useState([]);
