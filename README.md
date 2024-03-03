@@ -1,37 +1,37 @@
 
-Esse projeto permite o upload de dados de vendas em formato Excel, realiza a análise dos dados e oferece recursos de edição, download e visualização de totais de vendas por mês e categoria.
+## Esse projeto permite o upload de dados de vendas em formato Excel, realiza a análise dos dados e oferece recursos de edição, download e visualização de totais de vendas por mês e categoria.
 
 ## Funcionalidades Principais
 **Upload de Dados**: Permite o upload de um arquivo Excel contendo dados de vendas.
 
-Análise de Dados: Realiza a análise dos dados, formatando datas, mapeando categorias de produtos e calculando totais de vendas mensais e por categoria.
+**Análise de Dados**: Realiza a análise dos dados, formatando datas, mapeando categorias de produtos e calculando totais de vendas mensais e por categoria.
 
-Edição de Tabela: Permite a edição dos dados diretamente na tabela, facilitando correções ou atualizações.
+**Edição de Tabela**: Permite a edição dos dados diretamente na tabela, facilitando correções ou atualizações.
 
-Download Atualizado: Gera um novo arquivo Excel com os dados editados para download.
+**Download Atualizado**: Gera um novo arquivo Excel com os dados editados para download.
 
-Visualização de Totais: Apresenta totais de vendas por mês e por categoria.
+**Visualização de Totais**: Apresenta totais de vendas por mês e por categoria.
 
-##Bibliotecas Utilizadas
+## Bibliotecas Utilizadas
 
-#React: Biblioteca para construção de interfaces de usuário.
-#Chakra UI: Componentes de interface de usuário estilizados para React.
-#XLSX: Biblioteca para leitura e escrita de arquivos Excel em JavaScript.
-#date-fns: Biblioteca para formatação de datas em JavaScript.
-#ESLint: Ferramenta para linting e formatação de código.
-#Prettier: Ferramenta para formatação automática de código.
+## React: Biblioteca para construção de interfaces de usuário.
+## Chakra UI: Componentes de interface de usuário estilizados para React.
+## XLSX: Biblioteca para leitura e escrita de arquivos Excel em JavaScript.
+## date-fns: Biblioteca para formatação de datas em JavaScript.
+## ESLint: Ferramenta para linting e formatação de código.
+## Prettier: Ferramenta para formatação automática de código.
 
-##Como Executar o Projeto
+## Como Executar o Projeto
 Clone o repositório para o seu ambiente local.
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-##Navegue até o diretório do projeto.
+## Navegue até o diretório do projeto.
 cd nome-do-repositorio
 
-##Instale as dependências.
+## Instale as dependências.
 npm install
 
-##Inicie o servidor de desenvolvimento.
+## nicie o servidor de desenvolvimento.
 npm start
 
 # Getting Started with Create React App
