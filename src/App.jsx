@@ -230,7 +230,8 @@ function App() {
         pl={2}
         borderWidth="2px"
         borderRadius="md"
-        borderColor="#F1CD5A"      
+        borderColor="#F1CD5A"    
+        backgroundColor={"grey"}  
         className="TableContainer">
           <Table size="lg" >
             <Thead>
