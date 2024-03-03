@@ -1,9 +1,8 @@
 
 Esse projeto permite o upload de dados de vendas em formato Excel, realiza a análise dos dados e oferece recursos de edição, download e visualização de totais de vendas por mês e categoria.
 
-
-# Funcionalidades Principais
-Upload de Dados: Permite o upload de um arquivo Excel contendo dados de vendas.
+## Funcionalidades Principais
+**Upload de Dados**: Permite o upload de um arquivo Excel contendo dados de vendas.
 
 Análise de Dados: Realiza a análise dos dados, formatando datas, mapeando categorias de produtos e calculando totais de vendas mensais e por categoria.
 
@@ -14,6 +13,7 @@ Download Atualizado: Gera um novo arquivo Excel com os dados editados para downl
 Visualização de Totais: Apresenta totais de vendas por mês e por categoria.
 
 ##Bibliotecas Utilizadas
+
 #React: Biblioteca para construção de interfaces de usuário.
 #Chakra UI: Componentes de interface de usuário estilizados para React.
 #XLSX: Biblioteca para leitura e escrita de arquivos Excel em JavaScript.
