@@ -1,6 +1,8 @@
 
 ## Esse projeto permite o upload de dados de vendas em formato Excel, realiza a análise dos dados e oferece recursos de edição, download e visualização de totais de vendas por mês e categoria.
 
+**Acesse em https://uploadexcel.netlify.app/ **
+
 ## Funcionalidades Principais
 **Upload de Dados**: Permite o upload de um arquivo Excel contendo dados de vendas.
 
