@@ -2,9 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;    
-    
     margin-left: 50px;
 
+}
+.SaledTable{
+    padding-left: 40px;
+    margin-left: 20pxs;
 }
 .inputWrapper{
     display: flex;
