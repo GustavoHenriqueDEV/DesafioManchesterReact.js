@@ -66,6 +66,27 @@ function App() {
     return row;
   };
 
+  const mapCliente = {
+    1: "TechSolutions",
+    2: "Global Innovations S/A.",
+    3: "Future Enterprises Inc.",
+    4: "Quantum Dynamics Corp.",
+    5: "Frontier Technologies Ltd.",
+    6: "Prime Solutions Group.",
+    7: "Apex Ventures International",
+    8: "nnovateX Holdings LLC",
+    };
+  const transformClientInRow = (row) => {
+    if (row["CLIENTE"]) {
+      const mappedClient = mapCliente[row["CLIENTE"]];
+      if (mappedClient) {
+        row["CLIENTE"] = mappedClient;
+      }
+    }
+    return row;
+  };
+
+  
   const readExcel = (file) => {
     const reader = new FileReader();
     reader.onload = (e) => {
@@ -76,6 +97,7 @@ function App() {
         if (row["DATA"]) {
           row["DATA"] = formatDate(row["DATA"]);
         }
+        transformClientInRow(row);
         transformProductInRow(row);
         return row;
       });
