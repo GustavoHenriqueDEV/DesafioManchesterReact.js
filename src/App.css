@@ -17,9 +17,9 @@
     width: 144vh;
     height: 200vh ;
 }
-body{
+.bodyA{
     display: flex;
-    height: 200vh;
+    height: 1200vh !important;
     width: 100%;
     background-color: rgb(240, 235, 235);
 }

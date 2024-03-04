@@ -1,6 +1,7 @@
 import { useState } from "react";
 import * as XLSX from "xlsx";
 import { format } from "date-fns";
+import { FaGithub } from 'react-icons/fa';
 import {
   Table,
   Thead,
@@ -15,6 +16,7 @@ import {
   CardBody,
   Link,
   Input,
+  Box
 } from "@chakra-ui/react";
 
 function App() {
@@ -139,7 +141,7 @@ function App() {
   const { monthlyTotals, categoryTotals } = calculateTotals();
 
   return (
-    <>
+    <Box display="flex" flexDirection="column" minHeight="100vh">
       <header style={{ backgroundColor: "#161616", color: "#F1CD5A", padding: "20px", marginBottom: "20px" }}>
         <Heading size="lg" textAlign="center">
           Sistema de Vendas
@@ -265,12 +267,12 @@ function App() {
                 </Table>
         </div>
       </body>
-      <footer style={{ backgroundColor: "#161616", color: "#F1CD5A", padding: "20px", marginTop: "20px" }}>
+      <footer style={{ backgroundColor: "#161616", color: "#F1CD5A", padding: "20px", position: "fixed", bottom: 0, left: 0, width: "100%",textAlign: "center",}}>
         <Link href="https://github.com/GustavoHenriqueDEV" isExternal>
-          Meu GitHub
+        <FaGithub size={24} style={{ marginLeft: '10px' }} />
         </Link>
       </footer>
-    </>
+    </Box>
   );
 }
 
